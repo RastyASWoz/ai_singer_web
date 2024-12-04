@@ -1,0 +1,19 @@
+[project]
+name = "ai_singer_web"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Jiake Wang", email = "149813501+RastyASWoz@users.noreply.github.com"},
+]
+dependencies = ["flask>=3.1.0", "werkzeug>=3.1.3", "requests>=2.32.3"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
